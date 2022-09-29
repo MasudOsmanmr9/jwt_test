@@ -1,5 +1,7 @@
+# vs code/market place/ rest client  
+
 GET http://localhost:3000/posts
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc3VkIiwidXNlckFnZSI6MjgsImlhdCI6MTY2NDQ3ODQxMSwiZXhwIjoxNjY0NDc4NDQxfQ.W1S0CZGn3MVzZzaNqfkq0y6Lc30q_n8O7RI5UeWkIpc
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc3VkIiwidXNlckFnZSI6MjgsImlhdCI6MTY2NDQ4NjU2OSwiZXhwIjoxNjY0NDg2NTk5fQ.5gFeSvt964ga5qM0zXPjzPO_NTP9EHiSx7i1h8m72FE
 
 
 ###
@@ -7,7 +9,7 @@ POST  http://localhost:4000/token
 Content-Type: application/json
 
 {
-    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc3VkIiwidXNlckFnZSI6MjgsImlhdCI6MTY2NDQ3ODM3N30.0NaD2SEPdyLGtbz3URXSFxeFm0qiTfhrAhJcARMjqbs"
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc3VkIiwidXNlckFnZSI6MjgsImlhdCI6MTY2NDQ4NjUyNH0.pksdnM7QHexWE_nfLUGQPuFAKNF1D2ebys4tR_YbOjw"
 }
 
 ###
@@ -15,7 +17,7 @@ DELETE   http://localhost:4000/logout
 Content-Type: application/json
 
 {
-    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc3VkIiwidXNlckFnZSI6MjgsImlhdCI6MTY2NDQ3ODM3N30.0NaD2SEPdyLGtbz3URXSFxeFm0qiTfhrAhJcARMjqbs"
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hc3VkIiwidXNlckFnZSI6MjgsImlhdCI6MTY2NDQ4NjUyNH0.pksdnM7QHexWE_nfLUGQPuFAKNF1D2ebys4tR_YbOjw"
 }
 
 
